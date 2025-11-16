@@ -1,55 +1,68 @@
-### Bright Motors Car Sales Analysis
+# Project Overview
 
-### Overview
+This project analyzes the Bright Car Sales dataset, which contains transactional and pricing information for vehicles sold by Bright Motors. The aim is to derive actionable insights that help the dealership make strategic decisions to:
 
-This project presents a comprehensive analysis of the “Bright Car Sales” dataset, which contains daily transactional and pricing information for vehicles sold by Bright Motors. The goal of this analysis is to extract actionable insights that can support strategic decisions aimed at expanding the dealership network, enhancing sales performance, and optimizing inventory management under the guidance of the newly appointed Head of Sales.
+Increase revenue and profitability
 
-The project demonstrates how historical sales data can be leveraged to identify patterns, trends, and opportunities to improve profitability and operational efficiency.
+Optimize inventory management
 
-### Objectives
+Align marketing strategies with customer behavior
 
-Analyze revenue performance by brand, model, and year
+Support data-driven decision-making for sales performance
 
-Examine regional sales trends and identify high-performing locations
+The analysis focuses on understanding revenue patterns, sales trends across regions and time, and customer preferences related to vehicle characteristics such as mileage and color.
 
-Explore day-of-week and monthly sales patterns to optimize marketing efforts
+# Objectives
 
-Understand customer preferences regarding vehicle mileage and color
+Revenue Analysis: Evaluate sales revenue by brand, model, and year to identify high-performing vehicles.
 
-Provide actionable recommendations to increase dealership profitability and efficiency
+Regional Insights: Classify sales by region and state to pinpoint high-demand locations.
 
- ### Key Insights
+Time-Based Trends: Examine day-of-week and monthly sales patterns to optimize promotional strategies.
 
-High-performing brands and models: Identified vehicles that consistently generate the most revenue
+Customer Preferences: Explore trends in vehicle mileage and color to guide inventory and marketing.
 
-Inventory optimization: Recommendations for stocking lightly and moderately used vehicles while minimizing heavily used stock
+Actionable Recommendations: Provide insights to improve sales efficiency, inventory turnover, and profitability.
 
-Regional alignment: Tailored inventory and marketing strategies based on regional demand
+# Methodology
 
-Time-based strategies: Insights for targeted promotions during peak and low sales periods
+Data Extraction & Cleaning: Used SQL to filter, classify, and aggregate sales, revenue, mileage, and regional data. Applied CASE statements for categorizing vehicles by value, performance, and year.
 
-Customer preferences: Stocking vehicles in popular colors and configurations to improve turnover
+Analysis: Calculated revenue contributions, average mileage, sales by region, and trends by weekday/weekend and monthly sales cycles.
 
-Data-driven decision-making: Strategies for pricing, promotions, and continuous monitoring to enhance efficiency
+Visualization: Created charts in Excel to represent:
 
-### Recommendations
+Revenue by brand and model
 
-Prioritize inventory and marketing for high-performing brands and models
+Sales volume by region
 
-Align stock with customer preferences in mileage and color
+Price vs mileage vs year relationships
 
-Tailor inventory and promotions to regional demand patterns
+Customer color preferences
 
-Implement targeted campaigns based on day-of-week and monthly sales trends
+Interpretation: Identified patterns and trends to support actionable recommendations for inventory, promotions, and marketing campaigns.
 
-Utilize historical data for competitive pricing and strategic promotions
+# Key Insights
 
-Continuously monitor sales performance to adjust strategies in real-time
+Top-Performing Vehicles: Certain brands and models consistently generate the highest revenue.
 
-### Technologies and Tools Used
+Inventory Strategy: Lightly and moderately used vehicles sell faster; heavily used cars have slower turnover.
 
-Data Analysis:  SQL
+Regional Sales Patterns: Sales vary significantly across regions and states, indicating a need for location-specific strategies.
 
-Visualization: Excel charts
+Time-Based Trends: Promotions and campaigns aligned with peak sales days and months can maximize revenue.
 
-Reporting: PowerPoint
+Customer Preferences: Stocking vehicles in popular colors and preferred mileage ranges increases likelihood of sale.
+
+# Recommendations
+
+Prioritize inventory and marketing efforts on high-performing brands and models.
+
+Align stock with customer preferences in mileage and color.
+
+Develop region-specific inventory and promotional strategies.
+
+Implement targeted campaigns based on sales patterns by weekday, weekend, and month.
+
+Continuously monitor sales performance to adjust pricing and marketing strategies in real-time.
+
